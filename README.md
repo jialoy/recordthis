@@ -1,5 +1,5 @@
 # recordthis
-A covid-19 friendly tool for (remotely) recording audio. Still in beta stage. I am currently using this to record experimental audio stims.
+A (very basic) covid-19 friendly tool for remotely recording audio. Still in beta stage. I am currently using this to record experimental audio stims.
 
 How to set up:
 1. Download and unzip repository contents
@@ -16,7 +16,7 @@ How to use:
 <p align="center"><img src="../assets/scr2.png" width="400"></p>
 
 5. Click 'stop' when complete
-6. Repeat as necessary
+6. Repeat as necessary (generates a new recording each time)
 
 Recordings are saved as .webm format. These can be converted to a usable format (.mp3/.wav etc) via <a href="https://ffmpeg.org/">ffmpeg</a>
 
