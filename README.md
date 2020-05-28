@@ -9,9 +9,10 @@ How to set up:
 How to use:
 1. Navigate to the HTML page in your browser
 2. Enter a name for the recording session when prompted (this, along with the session start time, will be used to generate a filename prefix for the recordings)
-3. Click 'speak' to start recording (mic image should turn orange to indicate recording in progress)
-4. Click 'stop' when complete
-5. Repeat as necessary
+3. Click allow to allow mic access when prompted
+4. Click 'speak' to start recording (mic image should turn orange to indicate recording in progress)
+5. Click 'stop' when complete
+6. Repeat as necessary
 
 Recordings are saved as .webm format. These can be converted to a usable format (.mp3/.wav etc) via <a href="https://ffmpeg.org/">ffmpeg</a>
 
