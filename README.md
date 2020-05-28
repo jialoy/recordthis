@@ -13,7 +13,7 @@ How to use:
 4. Click 'stop' when complete
 5. Repeat as necessary
 
-Recordings are saved in .webm format. These can be converted to a usable format (.mp3/.wav etc) via <a href="https://ffmpeg.org/">ffmpeg</a>
+Recordings are saved as .webm format. These can be converted to a usable format (.mp3/.wav etc) via <a href="https://ffmpeg.org/">ffmpeg</a>
 
 ```ffmpeg -i input.ext output.ext```
 
