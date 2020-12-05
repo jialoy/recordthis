@@ -120,6 +120,16 @@ function recordAudioSC() {
           rec.ondataavailable = e => {
             audioChunks.push(e.data);
             if (rec.state == "inactive") {
+<<<<<<< HEAD
+              //can use size and duration to check for functioning audio
+              console.log(Date.now() - start);
+              console.log(e.data.size);
+              //check for suspiciously blank audio files
+              if (e.data.size<(2*(Date.now() - start))) {
+                window.alert("It looks like your mic isn't recording - please adjust this before you continue.");
+              } 
+=======
+>>>>>>> f6138088514e71a60fd2daeb78f4618209d78537
               let blob = new Blob(audioChunks,{type:'audio/mpeg-3'});
               recordedAudio.src = URL.createObjectURL(blob);
               recordedAudio.controls = true;
@@ -159,6 +169,10 @@ function recordAudioSC() {
     mic.style.borderRadius = "10%";
     stopRecord.disabled = false;
     audioChunks = [];
+<<<<<<< HEAD
+    start = Date.now();
+=======
+>>>>>>> f6138088514e71a60fd2daeb78f4618209d78537
     rec.start();
   };
   stopRecord.onclick = e => {
